@@ -1,0 +1,38 @@
+{
+    "name": "datatables.net-editor-zf",
+    "description": "Editor for DataTables with styling for [Foundation](https://get.foundation/)",
+    "main": "js/editor.foundation.js",
+    "module": "js/editor.foundation.mjs",
+    "style": "css/editor.foundation.css",
+    "types": "./types/editor.foundation.d.ts",
+    "version": "3.0.0-beta.1",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "js/**/*.mjs",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "Editing",
+        "CRUD",
+        "Inline",
+        "Modal",
+        "Multi-row",
+        "Foundation",
+        "Datatables",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-editor": "3.0.0-beta.1",
+        "datatables.net-zf": "3.0.0-0"
+    },
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "SEE LICENSE IN License.txt"
+}
