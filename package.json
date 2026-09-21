@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-editor-zf",
     "description": "Editor for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/editor.foundation.js",
-    "module": "js/editor.foundation.mjs",
-    "style": "css/editor.foundation.css",
+    "main": "./js/editor.foundation.js",
+    "module": "./js/editor.foundation.mjs",
+    "style": "./css/editor.foundation.css",
     "types": "./types/editor.foundation.d.ts",
     "version": "3.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Editing",
@@ -34,5 +33,24 @@
     },
     "homepage": "https://datatables.net",
     "bugs": "https://datatables.net/forums",
-    "license": "SEE LICENSE IN License.txt"
+    "license": "SEE LICENSE IN License.txt",
+    "exports": {
+        ".": {
+            "types": "./types/editor.foundation.d.ts",
+            "import": "./js/editor.foundation.mjs",
+            "default": "./js/editor.foundation.mjs",
+            "require": "./js/editor.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/editor.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
