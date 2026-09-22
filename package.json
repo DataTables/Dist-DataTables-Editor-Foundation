@@ -5,7 +5,7 @@
     "module": "./js/editor.foundation.mjs",
     "style": "./css/editor.foundation.css",
     "types": "./types/editor.foundation.d.ts",
-    "version": "3.0.2",
+    "version": "3.1.0",
     "files": [
         "js",
         "css",
@@ -24,8 +24,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-editor": "3.0.2",
-        "datatables.net-zf": "^3"
+        "datatables.net-editor": "3.1.0",
+        "datatables.net-zf": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
