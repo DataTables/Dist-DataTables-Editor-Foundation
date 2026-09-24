@@ -37,9 +37,10 @@
     "exports": {
         ".": {
             "types": "./types/editor.foundation.d.ts",
+            "style": "./css/editor.foundation.css",
             "import": "./js/editor.foundation.mjs",
-            "default": "./js/editor.foundation.mjs",
-            "require": "./js/editor.foundation.js"
+            "require": "./js/editor.foundation.js",
+            "default": "./js/editor.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
