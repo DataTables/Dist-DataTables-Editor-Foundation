@@ -1,4 +1,4 @@
-/*! Editor Foundation styling 3.1.0 for DataTables
+/*! Editor Foundation styling 3.1.1 for DataTables
  * Copyright (c) SpryMedia Ltd - https://datatables.net/license/plus
  */
 
